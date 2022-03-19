@@ -1,0 +1,38 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+.home-container{
+  background-color:lavenderblush ;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  align-items: ;
+}
+.scroll-box {
+  background: #f4f4f4;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  height: 6rem; /* maximum height of the box, feel free to change this! */
+  width: 18rem;
+  padding: 5px;
+  margin: 6px 0 6px 0;
+  overflow-y: scroll;
+}
